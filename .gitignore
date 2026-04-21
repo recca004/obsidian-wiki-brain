@@ -1,0 +1,44 @@
+# Claude local settings
+/.claude/settings.local.json
+
+# Obsidian local state
+/.obsidian/workspace.json
+/.obsidian/workspace-mobile.json
+/.obsidian/cache/
+/.obsidian/.trash/
+
+# Private content folders
+/00 - Inbox/**
+/01 - Raw Sources/**
+/02 - Wiki/**
+/03 - Maps/**
+/04 - Workbench/**
+/05 - Projects/**
+/06 - Daily/**
+/90 - Archive/**
+
+# Keep placeholders
+!/00 - Inbox/.gitkeep
+!/01 - Raw Sources/.gitkeep
+!/01 - Raw Sources/_Inbox/.gitkeep
+!/02 - Wiki/.gitkeep
+!/03 - Maps/.gitkeep
+!/04 - Workbench/.gitkeep
+!/05 - Projects/.gitkeep
+!/06 - Daily/.gitkeep
+!/90 - Archive/.gitkeep
+
+# Local files
+Sans titre.base
+*.base
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
